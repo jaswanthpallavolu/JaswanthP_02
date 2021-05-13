@@ -1,0 +1,81 @@
+nav{
+    background: linear-gradient(135deg, blue, aqua);
+    height:80px;
+    width:100%;
+    padding:20px;
+    position:fixed;
+    top:0;
+    box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+    z-index:2;
+}
+nav::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.nav-container .logo{
+    height:50px;
+    padding:10px;
+    float:left;
+    margin-left: 10%;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    float:right;
+    margin-right: 10%;
+}
+.menu li{
+    display: inline-block;
+    margin-right:20px;
+    position: relative;
+    top: 0;
+    
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.vline{
+    color: white;
+    font-size: 20px;
+    opacity: .7;
+}
+.phone{
+    font-size: 20px;
+    color: white;
+    
+}
+.phone img{
+    height:30px;
+    width:30px;
+    margin-right:10px;
+}
+ 
+.menu li a:hover{
+    color:rgb(46, 113, 145)
+}
+a .sqr{
+    height:15px;
+    width:15px;
+}
+.menu .current::before{
+    content:"";
+    position:absolute;
+    bottom:-100%;
+    height:3px;
+    width:100%;
+    background:white;
+    display:block;
+}
+
+@media screen and (max-width:1300px){
+    .nav-container .logo{
+        height:50px;
+        padding:10px;
+        float:left;
+        margin-left: 0%;
+    }
+}

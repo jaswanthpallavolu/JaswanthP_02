@@ -1,0 +1,127 @@
+.mail{
+    position:fixed;
+    left:7%;
+    bottom:7%;
+    z-index:2;
+    width:80px;
+    height:80px;
+    border-radius: 50% !important;
+    background: blueviolet !important;
+}
+.mail img{
+    width:40px;
+    height:40px;
+}
+.mail:hover{
+    background: aqua !important;
+}
+.mail-container{
+     
+    padding-top:10%;
+    background: rgba(255, 255, 255, 0.76) !important;
+    height:100%;
+   
+}
+
+.modal-content{
+    position: relative;
+    left:5%;
+    top:5%;
+    margin-left:-10%;
+    width:120% !important;
+    height:70%;
+    padding: 15px;
+    border-radius: 15px !important;
+    background:white !important;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.2), -3px -3px 5px 0 rgba(0,0,0,0.2);
+    
+}
+
+.mail-c2{
+    animation: mainbox 1s 1;
+     
+}
+@keyframes mainbox{
+    0% {opacity:0; transform: scale(.5)}
+    100% { transform:  scale(1)) } }
+}
+ 
+.big_circle{
+    position:relative;
+    left:15%;
+    margin-top: 10%;
+    width:600px;
+    height:600px;
+    background-image: url('assets_model2/emailback.png');  
+    background-size: cover;
+}
+ 
+@keyframes spinb { 
+    0% {opacity:0; transform: translateX(-50px) translateY(60px);}
+    100% {transform: translateX(0) translateY(0); }
+ }
+
+
+    
+.modal-content .small_circle{
+    position: absolute;
+    top:-10%;
+    right:10%;
+    width:100px;
+    height:100px !important;
+    z-index:10;
+    border-radius: 50%;
+    background: linear-gradient(210deg, blue, aqua);
+    animation: spin 2s 1 ;
+}
+@keyframes spin { 
+    0% {opacity:0; transform: translateX(-50px) translateY(-180px);}
+    100% { transform: translateX(0) translateY(0); } }
+
+
+
+
+.modal-content .close{
+    position: absolute;
+    right:5%;
+    width:10px;
+}
+.modal-content .text-content h5{
+    color: aqua;
+    margin-left: 20px;
+    margin-top: 5%;
+    
+}
+.modal-content .text-content h2{
+    width:70%;
+    margin-left: 20px;
+    text-transform: capitalize;
+
+}
+.modal-content form input{
+    margin-top:15px; 
+    width:300px;
+    height:40px;
+    border-radius: 20px;
+    padding-left:20px ;
+    border-style: solid;
+    border-color:rgb(190, 190, 190);
+     
+}
+.modal-content .send{
+    position:absolute;
+    bottom:10%;
+    right:10%;
+    width:100px;
+    color: white;
+    background: aqua;
+    border: none;
+    border-radius: 20px;
+    height:40px;
+}
+.modal-content .send img{
+    margin-left: 10px;
+    height:15px;
+    height:15px;
+}
+

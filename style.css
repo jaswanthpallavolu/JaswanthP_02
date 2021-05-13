@@ -1,0 +1,581 @@
+body{
+    padding: 0;
+    margin:0;
+}
+.container1{
+    margin:0 auto;
+    position: relative;
+    top: 0;
+    padding: 0;
+    width:100%;
+    height:80%;
+    background: linear-gradient(135deg, blue, aqua);
+    position:relative;
+    border-radius: 0% 0% 30% 20%/0% 0% 8% 10% ;
+}
+.container1::before{
+    content:'';
+    position:absolute;
+    top:5%;
+    left:-10%;
+    width:90%;
+    height:110%;
+    background:linear-gradient(135deg, blue, aqua);;
+    border-radius: 0% 0% 50% 50% /0% 0% 25% 15% ;
+    opacity:1;
+}
+
+.inner1{
+    width:100%;
+    height:90%;
+    background-image: url('assets_model2/BG-HomePage-High.png');
+    background-position: 46% 20%;
+    
+    opacity:.2;
+    background-repeat: no-repeat;
+   
+}
+.container1 .inner2{
+    position: relative;
+    top: -60%;
+    left: 10%;
+    color: white;
+    width:540px;
+    font-family: arial;
+}
+.container1 .inner2 .t1{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container1 .inner2 .t2{
+    font-size: 50px;
+    text-transform: capitalize;
+    line-height: 60px;
+}
+.container1 .inner2 .t3{
+    opacity: .7;
+}
+.container1 .inner2 button{
+    position: relative;
+    left:0;
+    top:5%;
+    text-transform: capitalize;
+    width:160px;
+    height:40px;
+    border: none;
+    background: rgb(3, 241, 241);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.container1 .inner2 button img{
+    position: absolute;
+    right:14%;
+    height: 16px;
+    width: 16px;
+    transform: rotate(90deg);
+
+}
+.container1 img{
+    border-radius: 60% 20% 20% 20% ;
+    position:absolute;
+    right:10%;
+    top:30%;
+    z-index:1;   
+}
+
+.container2{
+    width:100%;
+    height:100%;
+    margin-top:10%;
+    padding: 0;
+    position:relative;
+    left: 0;
+}
+.inner2{
+    height:110%;
+    background-image: url('assets_model2/BG-home-new4.png');
+    background-position: 70% 10%; 
+    background-repeat: no-repeat;
+}
+.container2 .row{
+    width:80%;
+    position:absolute;
+    left: 8%;
+    top:25%;
+}
+.container2 .right{
+    position: absolute;
+    right:0;
+    width:80%;
+    margin-top: 15%;
+    z-index: 1;
+    margin-left:60px; 
+}
+.container2 .right .t1{
+    font-size: 20px;
+}
+.container2 .right .t2{
+    font-family: arial;
+    font-size: 45px;
+    color: blueviolet;
+    opacity: .7;
+    line-height: 55px;
+}
+.container2 .right .t3{
+    font-size: 15px;
+    opacity: .7;
+}
+.container2 .right button{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    background: rgb(0, 238, 255);
+    width:200px;
+    height:40px;
+    border:none;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-family: arial;
+    font-weight: bold;
+
+}
+.container2 .right button img{
+    position:relative;
+    height:20px;
+    width:20px;
+    transform: translateX(-12px) translateY(-8px);
+    
+}
+.container2 img{
+   border-radius:20% 20% 60% 20%;
+   position:absolute;
+   top:20%;
+   left:10%;
+}
+.container3{
+    width:90%;
+    margin-top:10%;
+    margin-bottom: 25%;
+    position: relative;
+    left:0;
+}
+.container3 .one{
+    position: absolute;
+    left:5%;
+    margin-left:10%;
+    line-height: 35px;
+}
+.one p{
+    transform: translateY(50%);
+    font-size: 20px;
+    color: blueviolet;
+}
+.one .head{
+    font-size: 45px;
+    color: black;
+    opacity: .5;
+    font-family: Arial;
+}
+.container3 button{
+    position: absolute;
+    right:10%;
+    top:50px;
+    transform: translateX(50px);
+    height:40px;
+    width:160px;
+    background:blueviolet;
+    color:white;
+    border:none;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: capitalize;
+    
+}
+.container3 button img{
+    border:none;
+    transform: translateX(5px);
+    width: 15px; 
+    height:15px;
+    
+}
+
+.container4{
+    position: relative;
+    top:0%;
+    width:80%;
+    padding:10px;
+    background-position: 90% 0%;
+}
+.c4back{
+    position:absolute;
+    left:0;
+    margin-top: 0%;   
+    z-index: -1;
+    width:100%;
+    height:100%;
+    background-image: url('assets_model2/Shapes-icons.png');
+    background-size: 100%;
+    
+}
+.container4 .rows{
+     position:relative;
+     left:17%;
+     width:90%;
+}
+ 
+.container4 .card{
+    width:320px;
+    height:300px;
+    padding:60px;
+    text-align:left;
+    border-radius:20px 20px 20px 60px;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.3) ;
+}
+ 
+.card img{
+   height:70px;
+   width:80px;
+   transform: translateY(-20px);
+}
+.info .name{
+     
+    font-family: verdana;
+    transform: translateY(10px);
+    font-size: 20px;
+    opacity:.9;
+}
+.info p{
+    opacity:.7;
+}
+.info button{
+    background: none;
+    border: none;
+    width:100px;
+    transform: translateX(-10px) translateY(-5px);
+    padding:0;
+    color: #7e39d8;
+     
+}
+.info button img{
+    width:15px;
+    height:15px;
+    margin-left:5px;
+    transform: translateY(0)
+}
+
+.container5{
+    margin:0 auto;
+    width:80%;
+    height:90%;
+    margin-top: 15%;
+    margin-left:15%;
+    padding:10px;
+   
+    background-image: url('assets_model2/BG-TEAN-Home.png');
+    background-repeat: no-repeat;
+    background-position: -50% 25%;
+    background-size: 90%;
+}
+
+.container5 .profile{
+    margin:0;
+    width:320px;
+    height:300px;
+    text-align: center;
+    border-radius:20px;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.3) ;
+    z-index:1;
+    background: white;
+}
+.c5{
+    margin-right:3%;
+}
+.profile img{
+    width:100%;
+    height:73%;
+    border-radius:20px 20px 0 0;
+}
+.profile .name{
+    font-size: 18px;
+    margin:10px;
+    font-family: verdana;
+    font-weight:bold;
+    color:rgb(3, 226, 226);
+}
+.profile .role{
+    font-size: 15px;
+    transform: translateY(-10px);
+    opacity: .8;
+}
+.matter{
+    padding:20px;
+    text-align: left;
+    margin-left:3%;
+}
+.matter p{
+    font-size: 20px;
+    opacity: .7;
+}
+.matter .head{
+    font-size:38px;
+    color: blue;
+    line-height: 45px;
+}
+.matter button{
+    border:none;
+    width:160px;
+    height:40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    background:rgb(3, 226, 226) ;
+    transform: translateY(15px);
+}
+.matter img{
+    margin-left:10px;
+   width:10px;
+   height:10px;
+}
+
+/* container 6 */
+.container6{
+    margin-right: 0;
+    width:100%;
+    height:100%;
+    margin-top:-10%;
+    padding: 0;
+    background-image: url('assets_model2/BG-Testemonials-home-page.png');
+    background-size: 100%   ;
+    background-repeat: no-repeat;
+  
+}
+.container6 .row{
+     position: relative;
+     left:5%;
+     top: 10%;
+     width:95%;
+}
+.c6{
+    transform: translateY(10px);
+    margin-left:5%;
+}
+.info1{
+    transform: translateX(50px);
+}
+.c6 .info1 p{
+    font-family: verdana;
+    color: blueviolet;
+    font-size: 15px;
+}
+.c6 .info1 div{
+    font-family: verdana;
+    font-size: 40px;
+    text-transform: capitalize;
+    opacity: .7;
+    line-height: 45px;
+}
+.c6i img{
+    border-radius: 20px;
+    margin-left:30px;
+}
+.c6 .info{
+    position: absolute;
+    left:20%;
+}
+.c6 .info2 .t1{
+    font-size: 18px;
+    opacity: .7;
+}
+.c6 .info2 .t2{
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+   
+}
+.c6 .info2 .t3{
+    font-size: 15px;
+    text-transform: uppercase;
+    transform: translateY(-15px);
+}
+
+.row2{
+    position: relative;
+    top: 35%;
+    width:90%;
+}
+.row2 .titles{
+    text-align:center;
+    transform: translateX(6%);
+}
+.row2 .titles .t1{
+    font-family: arial;
+    font-size: 18px;
+    line-height: 0px;
+    opacity: .8;
+}
+.row2 .titles .head{
+    font-size: 40px;
+    
+    color: blue;
+}
+.row2 .titles .matt{
+    font-size: 15px;
+    width:30%;
+    margin-left:35%;
+    text-align: center;
+}
+.row2 .brands{
+     margin-top: 7%;
+     margin-left:5%;
+}
+.row2 .brands ul{
+    list-style: none;
+    width:100%;
+}
+.brands li{
+    display: inline-block;
+    margin:0;
+}
+.brands li img{
+    height:40%;
+}
+
+/* container 7 */
+.container7{
+   position: relative;
+    left: 0;
+    top:0%;
+    margin-top:20%;
+    height:80%;
+    width:100%;
+    background: linear-gradient(135deg, blue, aqua);
+
+}
+.container7 .inner{
+    position: absolute;
+    top:0%;
+    left:-10%;
+    width:100%;
+    height:100%;
+    background-image: url('assets_model2/CTA-Shapes.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    opacity: .1;
+}
+.container7 .content{
+    position: absolute;
+    top:40%;
+    left:7%;
+    width:500px;
+    text-align: left;
+    color: white;
+    z-index: 1;
+    text-transform: capitalize;
+}
+.c7 .content .head{
+    font-size: 50px;   
+    line-height: 50px;
+}
+.c7 .content .h2{
+    font-size: 20px;
+    opacity: .7;
+}
+.c7 .content button{
+    margin-top: 20px;
+    color:aqua;
+    background: white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    height:40px;
+    width:160px;
+    border: none;
+    box-shadow: inherit white;
+}
+.c7 .content button img{
+    margin-left:10px;
+    width:15px;
+    height:15px;
+    
+}
+.container7 .for_cut{
+    width:100%;
+    position: absolute;
+    top:-20%;
+}
+.container7 .image{
+    position:absolute;
+    top:-10%;
+    right:10%;
+    z-index: 1;
+    border-radius: 60% 20% 20% 20%;
+    
+}
+
+/* Footer */
+.footer{
+    width:99%;
+    padding-top: 30px;
+}
+.footer .f1{
+     width:100%;
+     text-align: center;
+     padding-left: 10%;
+}
+.footer .f1 img{
+    height: 50px;
+}
+.footer .f2{
+    width: 100%;
+    padding-left: 15%;
+    
+}
+.footer .f2 input{
+    width:520px;
+    height:40px;
+    border-radius: 18px;
+    padding-left: 20px;
+    color: rgb(204, 203, 203);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(207, 207, 207, 0.74);
+    opacity:.6;
+}
+
+.footer .f2 button{
+    margin-left:20px;
+    font-size: 15px;
+    font-weight: bold;
+    height:40px;
+    width:160px;
+    border: none;
+    background: blue;
+    border-radius: 18px;
+    color: white;
+}
+.footer .f2 button img{
+    margin-left:10px;
+    width:15px;
+    height:15px;
+}
+footer{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+footer .left{
+    float:left;
+    margin-left: 13%;
+     
+}
+footer .left img{
+    
+    height:50px;
+}
+footer .right{
+    float: right;
+    transform: translateY(50%);
+    font-family: verdana;
+    margin-right: 6%;
+    opacity: .6;
+}
